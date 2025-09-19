@@ -1,7 +1,7 @@
 const social = [{squery:'discord', slink:"https://discord.gg/Yaq5HWP3h2", sname:"Discord", sicon:"discord.webp", sbackground:"discord-bg.jpg"},
                 {squery:'twitch', slink:"https://www.twitch.tv/catoklysm/", sname:"Twitch", sicon:"twitch.webp", sbackground:null},
                 {squery:'pronounspage', slink:"https://en.pronouns.page/@Catoklysm", sname:"Pronounspage", sicon:"pronounspage.webp", sbackground:null},
-                {squery:'Telegram', slink:"https://t.me/catoklysm", sname:"Telegram", sicon:"telegram.webp", sbackground:null},
+                {squery:'telegram', slink:"https://t.me/catoklysm", sname:"Telegram", sicon:"telegram.webp", sbackground:null},
                 {squery:'bluesky', slink:"https://bsky.app/profile/catoklysm.bsky.social", sname:"Bluesky", sicon:"bluesky.webp", sbackground:null}];
 const url = (new URL(document.location));
 const duration = 1500;
@@ -31,10 +31,11 @@ window.addEventListener('load', () => {
         document.getElementById('loading-pbvalue').innerHTML = "Invalid Query";
         document.title = "Invalid Query";
         setTimeout(function(){
-            document.location.href = "https://catovr.ga/";
+            document.location.href = "https://catostudios.github.io/CatoWeb/links";
         }, duration);
     }
 });
+
 
 
 
