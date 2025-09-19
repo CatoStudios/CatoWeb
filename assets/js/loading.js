@@ -4,7 +4,7 @@ const social = [{squery:'discord', slink:"https://discord.gg/Yaq5HWP3h2", sname:
                 {squery:'telegram', slink:"https://t.me/catoklysm", sname:"Telegram", sicon:"telegram.webp", sbackground:null},
                 {squery:'bluesky', slink:"https://bsky.app/profile/catoklysm.bsky.social", sname:"Bluesky", sicon:"bluesky.webp", sbackground:null}];
 const url = (new URL(document.location));
-const duration = 1500;
+const duration = 1000;
 window.addEventListener('load', () => {
 
     var query = url.searchParams.get('q');
@@ -35,6 +35,7 @@ window.addEventListener('load', () => {
         }, duration);
     }
 });
+
 
 
 
