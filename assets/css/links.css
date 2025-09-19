@@ -54,13 +54,13 @@ html{
   body{
 padding-left: initial;
 align-self: center;
+padding-top: 10%;
   }
 .button {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     font-size: 150%;
-    padding-top: 6px;
     text-align: left;
-    width: 90%;
+    width: 100%;
 }
 }
 }
