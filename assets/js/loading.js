@@ -3,7 +3,8 @@ const social = [
   {squery:'twitch', slink:"https://www.twitch.tv/catoklysm/"},
   {squery:'pronounspage', slink:"https://en.pronouns.page/@Catoklysm"},
   {squery:'telegram', slink:"https://t.me/catoklysm"},
-  {squery:'bluesky', slink:"https://bsky.app/profile/catoklysm.bsky.social"}
+  {squery:'bluesky', slink:"https://bsky.app/profile/catoklysm.bsky.social"},
+  {squery:'fluxer', slink:"https://fluxer.gg/1IyLQiOb"}
 ];
 
 const url = new URL(document.location);
@@ -21,3 +22,4 @@ window.addEventListener('load', () => {
   // fallback redirect if nothing matches
   window.location.href = "https://catostudios.github.io/CatoWeb/links";
 });
+
